@@ -1,0 +1,6 @@
+pandas
+re
+numpy
+matplotlib
+scikit-learn
+statsmodels
