@@ -1,13 +1,13 @@
 # Data Attribution
 
-The data in this directory are derived from the Stanford Open Policing Project.
+This project uses police traffic-stop data for Wichita, Kansas, from 2018–2020, obtained from the Stanford Open Policing Project. The original dataset is not stored in this repository because the file is too large for a standard GitHub upload.
+
+The data in this directory are derived from the Stanford Open Policing Project, which contains cleaned police traffic-stop data for Wichita, Kansas, covering the period 2018–2020.
 
 # Source
 
 Stanford Open Policing Project
 https://openpolicing.stanford.edu/data/
-
-The dataset contains police traffic-stop data for Wichita, Kansas, covering the period 2018–2020.
 
 # License
 
@@ -18,6 +18,20 @@ The original dataset and its associated rights remain subject to the terms of th
 # Modifications
 
 The data are provided for analysis as part of this research project. Any filtering, cleaning, transformation, or other modifications to the original dataset are described in the project's analysis/code.
+
+## Reproducing the Analysis
+To reproduce the analysis:
+
+1. Obtain the Wichita data from the Stanford Open Policing Project.
+2. Place the downloaded file in this directory.
+3. Follow the analysis instructions in the project's notebooks or source code.
+   
+The expected local directory structure is:
+
+```
+data/
+└── wichita.csv
+```
 
 # Attribution
 
