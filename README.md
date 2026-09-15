@@ -1,8 +1,8 @@
 # wichita-traffic-citations-analysis
-Understanding and Modeling the Outcomes of Police Traffic Citations in Wichita Kansas using Stanford Open Policing Project Data from 2018-2020
+Understanding and Modeling the Outcomes of Police Traffic Citations in Wichita, Kansas, using Stanford Open Policing Project Data from 2018-2020
 
 ## Project Description: 
-The Stanford Open Policing Project dataset for Wichita, Kansas was used to create a binomial model to determine what the strongest factors are for a severe disposition outcome (“Guilty”, “Nollo Contendre”, etc.) after interaction with the Wichita police. 26 variables were selected that provided statistical soundness, predictive contribution, and were supported with domain knowledge. It should be noted that officer, court, and judge information were not provided, and Hispanic was no longer recorded as a race due to policy changes. The resulting binomial model had these metrics.
+The Stanford Open Policing Project dataset for Wichita, Kansas was used to create a binomial model to determine what the strongest factors are for a severe disposition outcome (“Guilty”, “Nollo Contendre”, etc.) after interaction with the Wichita police. 26 variables were selected that provided statistical soundness, predictive contribution, and were supported with domain knowledge (variables and reasons for selection or rejection along with reasoning can be found [here](Data/VariableChoicesWithSourcesWichita.xlsx). It should be noted that officer, court, and judge information were not provided, and Hispanic was no longer recorded as a race due to policy changes. The resulting binomial model had these metrics.
 
 
 | Metric                  | Value   | Interpretation                                    |
@@ -12,7 +12,7 @@ The Stanford Open Policing Project dataset for Wichita, Kansas was used to creat
 | Recall                  | 1.0     | All severe outcomes captured                      |
 | Precision               | 0.906   | High accuracy for severe predictions              |
 
-The high recall and precision along with the low AUC show that the model has a high skew towards the “severe” outcome. Future work would entail taking a deeper look into each category and attempting to improve the model from there.
+The high recall and precision, along with the low AUC, show that the model has a high skew towards the “severe” outcome. Future work would entail taking a deeper look into each category and attempting to improve the model from there.
 
 ## Dataset:
 The dataset used for this project was from the [Stanford Open Policing Project](https://openpolicing.stanford.edu/data/) site for Wichita, KS, and the .csv version was downloaded and used for this project.
