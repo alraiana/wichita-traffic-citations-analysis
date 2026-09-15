@@ -22,7 +22,7 @@ A data dictionary was compiled from the researchers’ [README file](https://git
 Data dictionary excerpt: 
 <img width="975" height="502" alt="image" src="https://github.com/user-attachments/assets/4c0a71e3-80c2-44ae-9be1-ea8a0b9b7c4a" />
 
-Dataset cleaning was done to filter down the years, categorize variables, and drop unnecessary columns. New variables were also created to be in line with the project goals. The attached Python file can be used to recreate the clean dataset, or it can be found here.
+Dataset cleaning was done to filter down the years, categorize variables, and drop unnecessary columns. New variables were also created to be in line with the project goals. The attached Python file can be used to recreate the clean dataset, or it can be found [here](Data/WichitaCleanDf.csv).
 
 ## Requirements: 
 Python version 3.10 was used for this project. 
