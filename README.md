@@ -15,9 +15,7 @@ The Stanford Open Policing Project dataset for Wichita, Kansas was used to creat
 The high recall and precision along with the low AUC show that the model has a high skew towards the “severe” outcome. Future work would entail taking a deeper look into each category and attempting to improve the model from there.
 
 ## Dataset:
-The dataset used for this project was from the [Stanford Open Policing Project](https://openpolicing.stanford.edu/data/) site for Wichita, KS and the .csv version was downloaded and used for this project.
-
-<img width="900" height="120" alt="image" src="https://github.com/user-attachments/assets/eac28e05-fc32-4068-9cc1-9e70d99f6d54" />
+The dataset used for this project was from the [Stanford Open Policing Project](https://openpolicing.stanford.edu/data/) site for Wichita, KS, and the .csv version was downloaded and used for this project.
 
 A data dictionary was compiled from the researchers’ [README file](https://github.com/stanford-policylab/opp/blob/master/data_readme.md), which can also be found here.
 
